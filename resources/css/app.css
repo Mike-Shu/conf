@@ -1,0 +1,17 @@
+@import 'uikit.css';
+@import 'style.css';
+@import '../../vendor/filament/forms/dist/module.esm.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filament-notifications {
+    z-index: 100;
+}
+
+.quiz-question-content p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
